@@ -8,12 +8,3 @@
 </swiper>
 
 
-<view class='bottom_container'>
-  <view class='b1_container'>
-    <image src='/images/turn.png' class='img_share'></image>
-      <text class='time'>2014-05-24</text>
-  </view>
-
-      <text class='post-time'>2014-05-24</text>
-
-</view>

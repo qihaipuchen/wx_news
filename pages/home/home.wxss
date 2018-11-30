@@ -4,21 +4,3 @@
   display: block;
 }
 
-.bottom_container{
-  background: darkolivegreen;
-  display: flex;
-  width: 100%；
-float: right;
-}
-
-.img_share{
-  float:left;
-  height: 20px;
-  width: 20px;
-}
-.post-time{
-
-text-align: right;
-  background: darkgoldenrod;
-
-}
