@@ -1,7 +1,7 @@
 {
   "pages": [
+        "pages/index/index",
     "pages/login/login",
-    "pages/index/index",
     "pages/logs/logs",
     "pages/regist/regist",
     "pages/home/home"
@@ -11,5 +11,28 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "tabBar": {
+    "color": "white",
+    "backgroundColor": "rgba(0,0,0,0.90)",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/login/login",
+        "iconPath": "images/bar_home_black.png",
+        "selectedIconPath": "images/bar_home.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/bar_explore_black.png",
+        "selectedIconPath": "images/bar_explore.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/bar_mine_black.png",
+        "selectedIconPath": "images/bar_mine.png"
+      }
+    ]
+  },
+  "debug": true
 }
